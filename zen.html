@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aena's work for Zen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- All CSS lives here so this page works on its own, same as
+       your ShehNoor page. If you change your homepage look later,
+       copy matching changes here too. -->
+  <style>
+    :root {
+      --color-bg: #faf9f6;
+      --color-text: #14161a;
+      --color-text-muted: #5c5f66;
+      --color-dark: #14161a;
+      --color-accent: #3d4ef0;
+      --color-border: #e4e2dc;
+      --font-display: 'Space Grotesk', sans-serif;
+      --font-body: 'Inter', sans-serif;
+      --max-width: 1200px;
+      --gutter: 24px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font-body);
+      color: var(--color-text);
+      background: var(--color-bg);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+    img { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+    h1, h2 { font-family: var(--font-display); font-weight: 600; line-height: 1.15; }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+    }
+
+    a:focus-visible, button:focus-visible {
+      outline: 2px solid var(--color-accent);
+      outline-offset: 3px;
+    }
+
+    section {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 96px var(--gutter);
+    }
+
+    .section-heading {
+      font-size: clamp(28px, 4vw, 40px);
+      margin-bottom: 48px;
+    }
+
+    /* Header */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--color-bg);
+      border-bottom: 1px solid var(--color-border);
+    }
+    .header-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 20px var(--gutter);
+    }
+    .logo { font-family: var(--font-display); font-weight: 600; font-size: 16px; }
+
+    /* Hero image */
+    .project-hero img {
+      width: 100%;
+      max-height: 70vh;
+      object-fit: cover;
+    }
+
+    /* Intro */
+    .project-intro { padding-bottom: 24px; }
+    .project-intro h1 {
+      font-size: clamp(28px, 5vw, 48px);
+      max-width: 20ch;
+      margin-bottom: 40px;
+    }
+    .project-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      padding: 24px 0;
+      margin-bottom: 32px;
+      border-top: 1px solid var(--color-border);
+      border-bottom: 1px solid var(--color-border);
+    }
+    .project-meta span {
+      display: block;
+      font-size: 13px;
+      color: var(--color-text-muted);
+      margin-bottom: 4px;
+    }
+    .project-meta p { font-size: 16px; }
+
+    /* Shared style for both copy sections */
+    .project-copy { padding-top: 0; padding-bottom: 24px; }
+    .project-copy h2 {
+      font-size: clamp(22px, 3vw, 28px);
+      margin-bottom: 20px;
+    }
+    .project-copy p {
+      max-width: 65ch;
+      font-size: 18px;
+      color: var(--color-text-muted);
+      margin-bottom: 16px;
+    }
+
+    /* ============================================================
+       PHOTO GRID
+       A repeating 3-column grid of square images, like an Instagram
+       grid — good fit for social content since posts are usually
+       already square/consistent, unlike the long newsletters.
+
+       TO ADD A PHOTO: duplicate one <button class="gallery-item">
+       block and change both src attributes to your image. Add as
+       many as you like — the grid keeps wrapping in rows of 3
+       automatically, no matter how many you add (works fine for
+       9 photos or 89).
+    ============================================================= */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+    }
+
+    .gallery-item {
+      display: block;
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      border: none;
+      padding: 0;
+      background: none;
+      cursor: zoom-in;
+      overflow: hidden;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 600px) {
+      .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    /* ============================================================
+       BIG COLLAGE PLACEHOLDERS
+       For the 2 large collage graphics — full width, uncropped,
+       so a big multi-panel collage shows exactly as designed.
+    ============================================================= */
+    .collage-block { padding-top: 0; padding-bottom: 64px; }
+    .collage-block img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      background: #f1f0ec;
+    }
+    .collage-block figcaption {
+      margin-top: 12px;
+      font-size: 14px;
+      color: var(--color-text-muted);
+    }
+
+    .project-next { padding-top: 0; }
+    .project-next a { font-size: 16px; color: var(--color-text-muted); }
+    .project-next a:hover { color: var(--color-text); }
+
+    /* Footer */
+    .site-footer {
+      background: var(--color-dark);
+      color: rgba(255, 255, 255, 0.7);
+      padding: 40px var(--gutter);
+    }
+    .footer-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      justify-content: space-between;
+      font-size: 14px;
+    }
+    .footer-socials { display: flex; gap: 20px; }
+    .footer-socials a:hover, .footer-inner a:hover { color: #fff; }
+
+    /* Lightbox */
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.92);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+      z-index: 300;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.25s ease, visibility 0.25s;
+    }
+    .lightbox.is-open { opacity: 1; visibility: visible; }
+    .lightbox img { max-width: 100%; max-height: 100%; border-radius: 4px; }
+    .lightbox-close {
+      position: absolute;
+      top: 24px;
+      right: 32px;
+      background: none;
+      border: none;
+      color: #fff;
+      font-size: 36px;
+      line-height: 1;
+      cursor: pointer;
+    }
+  </style>
+
+  <style>
+      /* Writing samples / docs */
+    .project-docs { padding-top: 0; }
+    .doc-link {
+      display: inline-block;
+      font-size: 18px;
+      color: var(--color-accent);
+      border-bottom: 1px solid var(--color-accent);
+      padding-bottom: 4px;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+    .doc-link:hover { color: var(--color-text); border-color: var(--color-text); }
+
+    .project-next { padding-top: 0; }
+    .project-next a { font-size: 16px; color: var(--color-text-muted); }
+    .project-next a:hover { color: var(--color-text); }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">&larr; Back to work</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO IMAGE -->
+    <!-- <section class="project-hero">
+     EDIT ME: your main Zen graphic -->
+      <!-- <img src="Zen Graphics/zen-hero.jpg" alt="Zen social media hero graphic"> -->
+    <!-- </section> -->
+
+    <!-- PROJECT INTRO -->
+    <section class="project-intro">
+      <h1>Zen</h1>
+      <div class="project-meta">
+        <div><span>Client</span><p>Zen</p></div>
+        <div><span>Role</span><p>Content Writing, Graphic Design</p></div>
+        <div><span>Year</span><p>2026</p></div>
+      </div>
+    </section>
+
+    <!-- COPY SECTION 1 -->
+    <section class="project-copy">
+
+          <section class="project-docs">
+      <h2 class="section-heading">Newsletter Copy</h2>
+      <!-- EDIT ME: point this at your exported PDF of the newsletter copy -->
+      <a class="doc-link" href="https://docs.google.com/document/d/1I4VKn-VjdqH2emwkCEHutayg4UadEY07DX_84NWtIXo/edit?usp=sharing" target="_blank" rel="noopener">
+        View Zen's Monthly Plan (Google Docs) &rarr;
+      </a>
+    </section>
+
+    <!-- ============================================================
+         PHOTO GRID (3 columns, repeats however many you add)
+    ============================================================= -->
+    <section class="project-gallery">
+      <h2 class="section-heading">Social Content</h2>
+      <div class="gallery-grid">
+
+        <button class="gallery-item" data-full="Zen Graphics/post-1.jpg">
+          <img src="./zen-graphics/- (1).jpg" alt="Zen social post">
+        </button>
+        <button class="gallery-item" data-full="Zen Graphics/post-2.jpg">
+          <img src="./zen-graphics/- (2).jpg" alt="Zen social post">
+        </button>
+        <button class="gallery-item" data-full="Zen Graphics/post-3.jpg">
+          <img src="./zen-graphics/- (3).jpg" alt="Zen social post">
+        </button>
+        <button class="gallery-item" data-full="Zen Graphics/post-4.jpg">
+          <img src="./zen-graphics/- (4).jpg" alt="Zen social post">
+        </button>
+        <button class="gallery-item" data-full="Zen Graphics/post-5.jpg">
+          <img src="./zen-graphics/- (5).jpg" alt="Zen social post">
+        </button>
+        <button class="gallery-item" data-full="Zen Graphics/post-6.jpg">
+          <img src="./zen-graphics/- (6).jpg" alt="Zen social post">
+        </button>
+        <button class="gallery-item" data-full="Zen Graphics/post-7.jpg">
+          <img src="./zen-graphics/- (7).jpg" alt="Zen social post">
+        </button>
+        <button class="gallery-item" data-full="Zen Graphics/post-8.jpg">
+          <img src="./zen-graphics/- (8).jpg" alt="Zen social post">
+        </button>
+        <button class="gallery-item" data-full="Zen Graphics/post-9.jpg">
+          <img src="./zen-graphics/- (9).jpg" alt="Zen social post">
+        </button>
+
+        <!-- Duplicate a .gallery-item button above for every extra
+             photo — add as many as you need, the grid just keeps
+             wrapping into new rows of 3. -->
+
+      </div>
+    </section>
+
+    <!-- COPY SECTION 2 -->
+    <section class="project-copy">
+      <h2>CONTENT + DESIGN</h2>
+      <!-- EDIT ME -->
+      <p>
+        Words and visuals shaped to attract a wider customer base while keeping Zen’s premium positioning intact..
+      </p>
+    </section>
+
+    <!-- ============================================================
+         BIG COLLAGE PLACEHOLDERS
+         For your 2 large multi-panel collage graphics — shown full
+         width and uncropped so nothing gets cut off or blurred.
+         Just swap the src on each <img> for your actual collage file.
+    ============================================================= -->
+    <section class="collage-block">
+      <figure>
+        <img src="./zen-graphics/Zen eid plan.jpg" alt="Zen collage 1">
+        <!-- EDIT ME: optional caption, or delete this line -->
+        <figcaption>Instagram grid preview</figcaption>
+      </figure>
+    </section>
+
+    <section class="collage-block">
+      <figure>
+        <img src="./zen-graphics/Zen layout.jpg" alt="Zen collage 2">
+        <figcaption>Campaign highlights</figcaption>
+      </figure>
+    </section>
+
+    <!-- NEXT PROJECT LINK -->
+    <section class="project-next">
+      <a href="index.html#work">&larr; Back to all work</a>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div><p>aenaakmal@gmail.com</p></div>
+      <div class="footer-socials">
+        <a href="tel:+923162750969">Phone</a>
+        <a href="https://wa.me/923162750969" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+      <div><p>&copy; <span id="year"></span> Aena Akmal</p></div>
+    </div>
+  </footer>
+
+  <!-- Lightbox for the gallery -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close image">&times;</button>
+    <img id="lightboxImg" src="" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

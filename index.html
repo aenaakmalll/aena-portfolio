@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ===== EDIT ME: page title + description (shows in browser tab / Google) ===== -->
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Portfolio of Your Name — projects in [your field, e.g. web development].">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- ===== OPTIONAL: replace with your own favicon file ===== -->
+  <!-- <link rel="icon" href="favicon.png"> -->
+
+  <style>
+  /* ==========================================================
+     HERO — two column: text left, image right
+  ========================================================== */
+  .hero {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-top: 120px;
+    padding-bottom: 10px;
+  }
+
+  .hero-text {
+    flex: 1;
+    min-width: 0; /* stops long text from forcing the column wider than intended */
+  }
+
+  .hero-text h1 {
+    font-size: clamp(32px, 4.5vw, 45px);
+  }
+
+  .hero-sub {
+    margin-top: 24px;
+    max-width: 60ch;
+    font-size: 18px;
+    color: var(--color-text-muted);
+  }
+
+  .hero-image {
+    flex: 0 0 400px; /* fixed width column on desktop */
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+
+  /* Stack into a single column on smaller screens, image below text */
+  @media (max-width: 800px) {
+    .hero {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 32px;
+    }
+
+    .hero-image {
+      flex: none;
+      width: 100%;
+    }
+  }
+</style>
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER / NAV
+       - Logo text on the left, hamburger button on the right.
+       - Clicking the hamburger opens a full-screen menu (handled in script.js)
+  ============================================================= -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#top" class="logo">
+        <!-- EDIT ME: your name / brand -->
+        Aena Akmal
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Full-screen nav overlay, hidden until the hamburger is clicked -->
+  <nav class="nav-overlay" id="navOverlay">
+    <ul class="nav-links">
+      <li><a href="#work" class="nav-link">Work</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-contact">
+      <!-- EDIT ME: your email + socials -->
+      <a href="mailto:aenaakmal@gmail.com">aenaakmal@gmail.com</a>
+      <div class="nav-socials">
+        <a href="tel:+923162750969">Phone</a>
+        <a href="https://wa.me/923162750969" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="top">
+
+    <!-- ============================================================
+         HERO SECTION
+         Big statement about who you are / what you do.
+    ============================================================= -->
+   <section class="hero">
+  <div class="hero-text">
+    <h1>
+      <!-- EDIT ME: your one-line pitch -->
+      Hey, I’m Aena, a die-hard creative with a strong passion for words &  graphics.
+    </h1>
+    <p class="hero-sub">
+      <!-- EDIT ME: a short supporting sentence -->
+      Helping brands & companies build a distinctive online and social media presence with over 5+ years of experience in social media writing & graphic design. Over the years, I’ve watched trends change & evolved my work with them.
+    </p>
+  </div>
+
+  <div class="hero-image">
+    <!-- EDIT ME: your photo or a graphic -->
+    <img src="./hero-me.jpg" alt="Aena Akmal">
+  </div>
+</section>
+
+    <!-- ============================================================
+         WORK / PROJECTS GRID
+         This is the main showcase. Each ".project-card" is one project.
+
+         TO ADD A PROJECT:
+         1. Duplicate "project-template.html", rename it (e.g.
+            "project-orroland.html"), and fill in your content there
+            — that page holds the full case study: gallery + writing samples.
+         2. Duplicate a whole <a class="project-card ..."> block below.
+         3. Change the href to point at your new case-study file.
+         4. Change the <img src="..."> to your own screenshot/graphic.
+            (Recommended size: at least 1200x800px, landscape.)
+         5. Update the title and description text.
+
+         The first project uses "project-card--large" to make it span
+         two columns on desktop — use this for your best/featured project.
+         Remove that class if you want all cards the same size.
+    ============================================================= -->
+    <section class="work" id="work">
+      <h2 class="section-heading">Selected Work</h2>
+
+      <div class="project-grid">
+
+        <!-- PROJECT 1 (featured / large) -->
+        <a href="shehnoor.html" class="project-card project-card--large">
+  <div class="newsletter-preview">
+    <div class="newsletter-preview__item">
+      <img src="1Churri.gif" alt="ShehNoor newsletter 1">
+    </div>
+    <div class="newsletter-preview__item">
+      <img src="2Women’s day.jpg" alt="ShehNoor newsletter 2">
+    </div>
+    <div class="newsletter-preview__item">
+      <img src="Bahar.gif" alt="ShehNoor newsletter 3">
+    </div>
+  </div>
+  <div class="project-info">
+    <h3>ShehNoor</h3>
+    <p>Designed newsletter campaigns that drove 6x sales for ShehNoor, a luxury jewellery brand in Pakistan.</p>
+  </div>
+</a>
+
+        <!-- PROJECT 2 -->
+        <a href="zen.html"  class="project-card">
+          <img src="Zen layout.jpg" alt="Project Two preview">
+          <div class="project-info">
+            <h3>Zen</h3>
+            <p>Zen
+            Social media content & graphics that attracted a wider customer base to premium food restaurant Zen.</p>
+          </div>
+        </a>
+
+        <!-- PROJECT 3 -->
+        <a href="meraki.html"  class="project-card">
+          <img src="Meraki.jpg" alt="Project Three preview">
+          <div class="project-info">
+            <h3>Meraki</h3>
+            <p>Designed Eid, Mother’s Day & other event-based social media strategies to generate a targeted niche audience in bulk for an elite fashionwear brand, Meraki.</p>
+          </div>
+        </a>
+
+        <!-- PROJECT 4 -->
+        <a href="araish.html"  class="project-card">
+          <img src="Araish.jpg" alt="Project Four preview">
+          <div class="project-info">
+            <h3>Araish</h3>
+            <p>Monthly and event-based newsletter and social media campaigns to build a loyal audience for Araish’s premium home essentials.</p>
+          </div>
+        </a>
+
+        <!-- Duplicate the <a class="project-card"> block above to add more projects -->
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ABOUT SECTION
+         A short bio. Keep it to a few sentences.
+    ============================================================= -->
+    <section class="about" id="about">
+      <h2 class="section-heading">About</h2>
+      <div class="about-content">
+        <p>
+          <!-- EDIT ME: write 2-4 sentences about yourself: who you are,
+               what you do, what tools/skills you use, what you're
+               currently interested in or looking for. -->
+         A computer science undergrad who loves figuring out what makes people stop scrolling and pay attention. The trick I’ve learnt is to start by knowing your audience, then communicate clearly through content and visuals, with storytelling that actually adds value instead of just fluff.
+        </p>
+
+        <!-- OPTIONAL: a simple skills list. Delete this block if you don't want it -->
+        <ul class="skills-list">
+          <li>Content Strategy</li>
+          <li>Visual Communication</li>
+          <li>Audience & Trend Research</li>
+          <li>Creative Problem-Solving</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       CONTACT / CTA BAND
+  ============================================================= -->
+  <section class="cta" id="contact">
+    <h2>
+      <!-- EDIT ME: closing line -->
+      Got a project in mind? Let's talk.
+    </h2>
+    <a href="https://wa.me/923162750969" target="_blank" class="cta-link">Say hello &rarr;</a>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================= -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <!-- EDIT ME -->
+        <p>aenaakmal@gmail.com</p>
+      </div>
+      <div class="footer-socials">
+        <!-- EDIT ME: your links -->
+        <a href="tel:+923162750969">Phone</a>
+        <a href="https://wa.me/923162750969" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+      <div>
+        <!-- EDIT ME: year updates automatically via script.js, name stays -->
+        <p>&copy; <span id="year"></span> Aena Akmal</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
