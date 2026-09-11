@@ -1,0 +1,16 @@
+﻿C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\index.html:164: <img src="1Churri.gif" alt="ShehNoor newsletter 1">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\index.html:170: <img src="Bahar.gif" alt="ShehNoor newsletter 3">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\meraki.html:199: .gif-grid {
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\meraki.html:204: .gif-item {
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\meraki.html:212: .gif-item img { width: 100%; height: auto; display: block; }
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\meraki.html:215: .gif-grid { grid-template-columns: 1fr; }
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\meraki.html:334: <img src="./meraki-graphics/meraki eid newsletter.gif" alt="Newsletter 1">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\meraki.html:337: <img src="./meraki-graphics/Newsletter compressed.gif" alt="Newsletter 2">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\meraki.html:367: <img src="meraki-graphics/gif1.gif" alt="GIF 1">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\meraki.html:370: <img src="meraki-graphics/gif2.gif" alt="GIF 2">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\shehnoor.html:282: <img src="Bahar.gif" alt="ShehNoor newsletter 1">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\shehnoor.html:290: <img src="Made in pakistan.gif" alt="ShehNoor newsletter 3">
+C:\Users\NCS\Downloads\PORTFOLIO\meraki.html:199: .gif-grid {
+C:\Users\NCS\Downloads\PORTFOLIO\meraki.html:204: .gif-item {
+C:\Users\NCS\Downloads\PORTFOLIO\meraki.html:212: .gif-item img { width: 100%; height: auto; display: block; }
+C:\Users\NCS\Downloads\PORTFOLIO\meraki.html:215: .gif-grid { grid-template-columns: 1fr; }

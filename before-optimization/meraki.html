@@ -209,7 +209,7 @@
       overflow: hidden;
       background: #f1f0ec;
     }
-    .gif-item img, .gif-item video { width: 100%; height: auto; display: block; }
+    .gif-item img { width: 100%; height: auto; display: block; }
 
     @media (max-width: 600px) {
       .gif-grid { grid-template-columns: 1fr; }
@@ -281,17 +281,7 @@
       line-height: 1;
       cursor: pointer;
     }
-  
-/* Sizing for converted GIF videos only */
-.optimized-gif {
-    display: block;
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    object-fit: contain;
-}
-
-</style>
+  </style>
 </head>
 <body>
 
@@ -341,10 +331,10 @@
       <h2 class="section-heading">Newsletters</h2>
       <div class="newsletter-grid">
         <button class="newsletter-item" data-full="images/newsletter-1.jpg">
-          <video class="optimized-gif" src="optimized/meraki-graphics/meraki eid newsletter.webm" autoplay muted loop playsinline></video>
+          <img src="./meraki-graphics/meraki eid newsletter.gif" alt="Newsletter 1">
         </button>
         <button class="newsletter-item" data-full="images/newsletter-2.jpg">
-          <video class="optimized-gif" src="optimized/meraki-graphics/Newsletter compressed.webm" autoplay muted loop playsinline></video>
+          <img src="./meraki-graphics/Newsletter compressed.gif" alt="Newsletter 2">
         </button>
       </div>
     </section> -->
@@ -356,13 +346,13 @@
       <h2 class="section-heading">Social Media Posts</h2>
       <div class="post-grid">
         <button class="post-item" data-full="images/post-1.jpg">
-          <img src="optimized/meraki-graphics/1.webp" alt="Social media post 1">
+          <img src="meraki-graphics/1.jpg" alt="Social media post 1">
         </button>
         <button class="post-item" data-full="images/post-2.jpg">
-          <img src="optimized/meraki-graphics/2.webp" alt="Social media post 2">
+          <img src="meraki-graphics/2.jpg" alt="Social media post 2">
         </button>
         <button class="post-item" data-full="images/post-3.jpg">
-          <img src="optimized/meraki-graphics/3.webp" alt="Social media post 3">
+          <img src="meraki-graphics/3.jpg" alt="Social media post 3">
         </button>
       </div>
     </section>
@@ -374,10 +364,10 @@
       <h2 class="section-heading">GIFs</h2>
       <div class="gif-grid">
         <div class="gif-item">
-          <video class="optimized-gif" src="optimized/meraki-graphics/gif1.webm" autoplay muted loop playsinline></video>
+          <img src="meraki-graphics/gif1.gif" alt="GIF 1">
         </div>
         <div class="gif-item">
-          <video class="optimized-gif" src="optimized/meraki-graphics/gif2.webm" autoplay muted loop playsinline></video>
+          <img src="meraki-graphics/gif2.gif" alt="GIF 2">
         </div>
       </div>
     </section>
@@ -388,7 +378,7 @@
     <section class="layout-block">
       <h2 class="section-heading">Layouts</h2>
       <figure>
-        <img src="optimized/meraki-graphics/Intro grid.webp" alt="Layout 1">
+        <img src="meraki-graphics/Intro grid.jpg" alt="Layout 1">
         <!-- EDIT ME: optional caption, or delete -->
         <!-- <figcaption>Layout 1 caption</figcaption> -->
       </figure>
@@ -396,7 +386,7 @@
 
     <section class="layout-block">
       <figure>
-        <img src="optimized/meraki-graphics/Layout.webp" alt="Layout 2">
+        <img src="meraki-graphics/Layout.jpg" alt="Layout 2">
         <!-- <figcaption>Layout 2 caption</figcaption> -->
       </figure>
     </section>

@@ -219,7 +219,17 @@
       line-height: 1;
       cursor: pointer;
     }
-  </style>
+  
+/* Sizing for converted GIF videos only */
+.optimized-gif {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+</style>
 </head>
 <body>
 
@@ -233,7 +243,7 @@
 
     <!-- HERO IMAGE -->
     <section class="project-hero">
-      <img src="shehnoor-html-top.jpg" alt="ShehNoor newsletter campaign hero graphic">
+      <img src="optimized/shehnoor-html-top.webp" alt="ShehNoor newsletter campaign hero graphic">
     </section>
 
     <!-- PROJECT INTRO -->
@@ -272,20 +282,22 @@
          file (use the same image path for both — one is the thumbnail
          shown here, one is the full-size version shown when clicked).
     ============================================================= -->
+
+    
     <section class="project-gallery">
       <h2 class="section-heading">Newsletters</h2>
       <div class="gallery-grid">
 
         <button class="gallery-item" data-full="Shehnoor Graphics/newsletter-1.jpg">
-          <img src="Bahar.gif" alt="ShehNoor newsletter 1">
+          <video class="optimized-gif" src="optimized/Bahar.webm" autoplay muted loop playsinline></video>
         </button>
 
         <button class="gallery-item" data-full="Shehnoor Graphics/newsletter-2.jpg">
-          <img src="2Women’s day.jpg" alt="ShehNoor newsletter 2">
+          <img src="optimized/2Women’s day.webp" alt="ShehNoor newsletter 2">
         </button>
 
         <button class="gallery-item" data-full="Shehnoor Graphics/newsletter-3.jpg">
-          <img src="Made in pakistan.gif" alt="ShehNoor newsletter 3">
+          <video class="optimized-gif" src="optimized/Made in pakistan.webm" autoplay muted loop playsinline></video>
         </button>
 
         <!-- Duplicate a .gallery-item button above to add more newsletters -->

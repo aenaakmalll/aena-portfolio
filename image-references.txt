@@ -1,0 +1,128 @@
+﻿C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\araish.html:265: <!-- <img src="araish Graphics/araish-hero.jpg" alt="araish social media hero graphic"> -->
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\araish.html:296: <button class="gallery-item" data-full="araish Graphics/post-1.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\araish.html:297: <img src="./araish-graphics/- (1).jpg" alt="araish social post">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\araish.html:299: <button class="gallery-item" data-full="araish Graphics/post-2.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\araish.html:300: <img src="./araish-graphics/- (2).jpg" alt="araish social post">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\araish.html:302: <button class="gallery-item" data-full="araish Graphics/post-3.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\araish.html:303: <img src="./araish-graphics/- (3).jpg" alt="araish social post">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\araish.html:305: <button class="gallery-item" data-full="araish Graphics/post-4.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\araish.html:306: <img src="./araish-graphics/- (4).jpg" alt="araish social post">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\araish.html:308: <button class="gallery-item" data-full="araish Graphics/post-5.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\araish.html:309: <img src="./araish-graphics/- (5).jpg" alt="araish social post">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\araish.html:311: <button class="gallery-item" data-full="araish Graphics/post-6.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\araish.html:312: <img src="./araish-graphics/- (6).jpg" alt="araish social post">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\araish.html:314: <button class="gallery-item" data-full="araish Graphics/post-7.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\araish.html:315: <img src="./araish-graphics/- (7).jpg" alt="araish social post">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\araish.html:317: <button class="gallery-item" data-full="araish Graphics/post-8.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\araish.html:318: <img src="./araish-graphics/- (8).jpg" alt="araish social post">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\araish.html:320: <button class="gallery-item" data-full="araish Graphics/post-9.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\araish.html:321: <img src="./araish-graphics/- (9).jpg" alt="araish social post">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\araish.html:350: <img src="./araish-graphics/araish layout.jpg" alt="araish collage 1">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\araish.html:358: <img src="./araish-graphics/Extended plan Layout.jpg" alt="araish collage 2">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\index.html:18: <!-- <link rel="icon" href="favicon.png"> -->
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\index.html:133: <img src="./hero-me.jpg" alt="Aena Akmal">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\index.html:167: <img src="2Women’s day.jpg" alt="ShehNoor newsletter 2">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\index.html:181: <img src="Zen layout.jpg" alt="Project Two preview">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\index.html:191: <img src="Meraki.jpg" alt="Project Three preview">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\index.html:200: <img src="Araish.jpg" alt="Project Four preview">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\meraki.html:299: <!-- <img src="images/hero.jpg" alt="Project hero image">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\meraki.html:333: <button class="newsletter-item" data-full="images/newsletter-1.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\meraki.html:336: <button class="newsletter-item" data-full="images/newsletter-2.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\meraki.html:348: <button class="post-item" data-full="images/post-1.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\meraki.html:349: <img src="meraki-graphics/1.jpg" alt="Social media post 1">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\meraki.html:351: <button class="post-item" data-full="images/post-2.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\meraki.html:352: <img src="meraki-graphics/2.jpg" alt="Social media post 2">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\meraki.html:354: <button class="post-item" data-full="images/post-3.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\meraki.html:355: <img src="meraki-graphics/3.jpg" alt="Social media post 3">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\meraki.html:381: <img src="meraki-graphics/Intro grid.jpg" alt="Layout 1">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\meraki.html:389: <img src="meraki-graphics/Layout.jpg" alt="Layout 2">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\shehnoor.html:236: <img src="shehnoor-html-top.jpg" alt="ShehNoor newsletter campaign hero graphic">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\shehnoor.html:281: <button class="gallery-item" data-full="Shehnoor Graphics/newsletter-1.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\shehnoor.html:285: <button class="gallery-item" data-full="Shehnoor Graphics/newsletter-2.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\shehnoor.html:286: <img src="2Women’s day.jpg" alt="ShehNoor newsletter 2">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\shehnoor.html:289: <button class="gallery-item" data-full="Shehnoor Graphics/newsletter-3.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\zen.html:265: <!-- <img src="Zen Graphics/zen-hero.jpg" alt="Zen social media hero graphic"> -->
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\zen.html:296: <button class="gallery-item" data-full="Zen Graphics/post-1.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\zen.html:297: <img src="./zen-graphics/- (1).jpg" alt="Zen social post">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\zen.html:299: <button class="gallery-item" data-full="Zen Graphics/post-2.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\zen.html:300: <img src="./zen-graphics/- (2).jpg" alt="Zen social post">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\zen.html:302: <button class="gallery-item" data-full="Zen Graphics/post-3.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\zen.html:303: <img src="./zen-graphics/- (3).jpg" alt="Zen social post">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\zen.html:305: <button class="gallery-item" data-full="Zen Graphics/post-4.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\zen.html:306: <img src="./zen-graphics/- (4).jpg" alt="Zen social post">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\zen.html:308: <button class="gallery-item" data-full="Zen Graphics/post-5.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\zen.html:309: <img src="./zen-graphics/- (5).jpg" alt="Zen social post">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\zen.html:311: <button class="gallery-item" data-full="Zen Graphics/post-6.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\zen.html:312: <img src="./zen-graphics/- (6).jpg" alt="Zen social post">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\zen.html:314: <button class="gallery-item" data-full="Zen Graphics/post-7.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\zen.html:315: <img src="./zen-graphics/- (7).jpg" alt="Zen social post">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\zen.html:317: <button class="gallery-item" data-full="Zen Graphics/post-8.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\zen.html:318: <img src="./zen-graphics/- (8).jpg" alt="Zen social post">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\zen.html:320: <button class="gallery-item" data-full="Zen Graphics/post-9.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\zen.html:321: <img src="./zen-graphics/- (9).jpg" alt="Zen social post">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\zen.html:348: <img src="./zen-graphics/Zen eid plan.jpg" alt="Zen collage 1">
+C:\Users\NCS\Downloads\PORTFOLIO\before-optimization\zen.html:356: <img src="./zen-graphics/Zen layout.jpg" alt="Zen collage 2">
+C:\Users\NCS\Downloads\PORTFOLIO\araish.html:265: <!-- <img src="araish Graphics/araish-hero.webp" alt="araish social media hero graphic"> -->
+C:\Users\NCS\Downloads\PORTFOLIO\araish.html:296: <button class="gallery-item" data-full="araish Graphics/post-1.webp">
+C:\Users\NCS\Downloads\PORTFOLIO\araish.html:297: <img src="./araish-graphics/- (1).webp" alt="araish social post">
+C:\Users\NCS\Downloads\PORTFOLIO\araish.html:299: <button class="gallery-item" data-full="araish Graphics/post-2.webp">
+C:\Users\NCS\Downloads\PORTFOLIO\araish.html:300: <img src="./araish-graphics/- (2).webp" alt="araish social post">
+C:\Users\NCS\Downloads\PORTFOLIO\araish.html:302: <button class="gallery-item" data-full="araish Graphics/post-3.webp">
+C:\Users\NCS\Downloads\PORTFOLIO\araish.html:303: <img src="./araish-graphics/- (3).webp" alt="araish social post">
+C:\Users\NCS\Downloads\PORTFOLIO\araish.html:305: <button class="gallery-item" data-full="araish Graphics/post-4.webp">
+C:\Users\NCS\Downloads\PORTFOLIO\araish.html:306: <img src="./araish-graphics/- (4).webp" alt="araish social post">
+C:\Users\NCS\Downloads\PORTFOLIO\araish.html:308: <button class="gallery-item" data-full="araish Graphics/post-5.webp">
+C:\Users\NCS\Downloads\PORTFOLIO\araish.html:309: <img src="./araish-graphics/- (5).webp" alt="araish social post">
+C:\Users\NCS\Downloads\PORTFOLIO\araish.html:311: <button class="gallery-item" data-full="araish Graphics/post-6.webp">
+C:\Users\NCS\Downloads\PORTFOLIO\araish.html:312: <img src="./araish-graphics/- (6).webp" alt="araish social post">
+C:\Users\NCS\Downloads\PORTFOLIO\araish.html:314: <button class="gallery-item" data-full="araish Graphics/post-7.webp">
+C:\Users\NCS\Downloads\PORTFOLIO\araish.html:315: <img src="./araish-graphics/- (7).webp" alt="araish social post">
+C:\Users\NCS\Downloads\PORTFOLIO\araish.html:317: <button class="gallery-item" data-full="araish Graphics/post-8.webp">
+C:\Users\NCS\Downloads\PORTFOLIO\araish.html:318: <img src="./araish-graphics/- (8).webp" alt="araish social post">
+C:\Users\NCS\Downloads\PORTFOLIO\araish.html:320: <button class="gallery-item" data-full="araish Graphics/post-9.webp">
+C:\Users\NCS\Downloads\PORTFOLIO\araish.html:321: <img src="./araish-graphics/- (9).webp" alt="araish social post">
+C:\Users\NCS\Downloads\PORTFOLIO\araish.html:350: <img src="./araish-graphics/araish layout.webp" alt="araish collage 1">
+C:\Users\NCS\Downloads\PORTFOLIO\araish.html:358: <img src="./araish-graphics/Extended plan Layout.webp" alt="araish collage 2">
+C:\Users\NCS\Downloads\PORTFOLIO\index.html:18: <!-- <link rel="icon" href="favicon.png"> -->
+C:\Users\NCS\Downloads\PORTFOLIO\index.html:143: <img src="./hero-me.jpg" alt="Aena Akmal">
+C:\Users\NCS\Downloads\PORTFOLIO\index.html:177: <img src="2Women’s day.jpg" alt="ShehNoor newsletter 2">
+C:\Users\NCS\Downloads\PORTFOLIO\index.html:191: <img src="Zen layout.jpg" alt="Project Two preview">
+C:\Users\NCS\Downloads\PORTFOLIO\index.html:201: <img src="Meraki.jpg" alt="Project Three preview">
+C:\Users\NCS\Downloads\PORTFOLIO\index.html:210: <img src="Araish.jpg" alt="Project Four preview">
+C:\Users\NCS\Downloads\PORTFOLIO\meraki.html:309: <!-- <img src="images/hero.jpg" alt="Project hero image">
+C:\Users\NCS\Downloads\PORTFOLIO\meraki.html:343: <button class="newsletter-item" data-full="images/newsletter-1.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\meraki.html:346: <button class="newsletter-item" data-full="images/newsletter-2.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\meraki.html:358: <button class="post-item" data-full="images/post-1.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\meraki.html:359: <img src="meraki-graphics/1.jpg" alt="Social media post 1">
+C:\Users\NCS\Downloads\PORTFOLIO\meraki.html:361: <button class="post-item" data-full="images/post-2.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\meraki.html:362: <img src="meraki-graphics/2.jpg" alt="Social media post 2">
+C:\Users\NCS\Downloads\PORTFOLIO\meraki.html:364: <button class="post-item" data-full="images/post-3.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\meraki.html:365: <img src="meraki-graphics/3.jpg" alt="Social media post 3">
+C:\Users\NCS\Downloads\PORTFOLIO\meraki.html:391: <img src="meraki-graphics/Intro grid.jpg" alt="Layout 1">
+C:\Users\NCS\Downloads\PORTFOLIO\meraki.html:399: <img src="meraki-graphics/Layout.jpg" alt="Layout 2">
+C:\Users\NCS\Downloads\PORTFOLIO\shehnoor.html:246: <img src="shehnoor-html-top.jpg" alt="ShehNoor newsletter campaign hero graphic">
+C:\Users\NCS\Downloads\PORTFOLIO\shehnoor.html:291: <button class="gallery-item" data-full="Shehnoor Graphics/newsletter-1.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\shehnoor.html:295: <button class="gallery-item" data-full="Shehnoor Graphics/newsletter-2.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\shehnoor.html:296: <img src="2Women’s day.jpg" alt="ShehNoor newsletter 2">
+C:\Users\NCS\Downloads\PORTFOLIO\shehnoor.html:299: <button class="gallery-item" data-full="Shehnoor Graphics/newsletter-3.jpg">
+C:\Users\NCS\Downloads\PORTFOLIO\zen.html:265: <!-- <img src="Zen Graphics/zen-hero.webp" alt="Zen social media hero graphic"> -->
+C:\Users\NCS\Downloads\PORTFOLIO\zen.html:296: <button class="gallery-item" data-full="Zen Graphics/post-1.webp">
+C:\Users\NCS\Downloads\PORTFOLIO\zen.html:297: <img src="./zen-graphics/- (1).webp" alt="Zen social post">
+C:\Users\NCS\Downloads\PORTFOLIO\zen.html:299: <button class="gallery-item" data-full="Zen Graphics/post-2.webp">
+C:\Users\NCS\Downloads\PORTFOLIO\zen.html:300: <img src="./zen-graphics/- (2).webp" alt="Zen social post">
+C:\Users\NCS\Downloads\PORTFOLIO\zen.html:302: <button class="gallery-item" data-full="Zen Graphics/post-3.webp">
+C:\Users\NCS\Downloads\PORTFOLIO\zen.html:303: <img src="./zen-graphics/- (3).webp" alt="Zen social post">
+C:\Users\NCS\Downloads\PORTFOLIO\zen.html:305: <button class="gallery-item" data-full="Zen Graphics/post-4.webp">
+C:\Users\NCS\Downloads\PORTFOLIO\zen.html:306: <img src="./zen-graphics/- (4).webp" alt="Zen social post">
+C:\Users\NCS\Downloads\PORTFOLIO\zen.html:308: <button class="gallery-item" data-full="Zen Graphics/post-5.webp">
+C:\Users\NCS\Downloads\PORTFOLIO\zen.html:309: <img src="./zen-graphics/- (5).webp" alt="Zen social post">
+C:\Users\NCS\Downloads\PORTFOLIO\zen.html:311: <button class="gallery-item" data-full="Zen Graphics/post-6.webp">
+C:\Users\NCS\Downloads\PORTFOLIO\zen.html:312: <img src="./zen-graphics/- (6).webp" alt="Zen social post">
+C:\Users\NCS\Downloads\PORTFOLIO\zen.html:314: <button class="gallery-item" data-full="Zen Graphics/post-7.webp">
+C:\Users\NCS\Downloads\PORTFOLIO\zen.html:315: <img src="./zen-graphics/- (7).webp" alt="Zen social post">
+C:\Users\NCS\Downloads\PORTFOLIO\zen.html:317: <button class="gallery-item" data-full="Zen Graphics/post-8.webp">
+C:\Users\NCS\Downloads\PORTFOLIO\zen.html:318: <img src="./zen-graphics/- (8).webp" alt="Zen social post">
+C:\Users\NCS\Downloads\PORTFOLIO\zen.html:320: <button class="gallery-item" data-full="Zen Graphics/post-9.webp">
+C:\Users\NCS\Downloads\PORTFOLIO\zen.html:321: <img src="./zen-graphics/- (9).webp" alt="Zen social post">
+C:\Users\NCS\Downloads\PORTFOLIO\zen.html:348: <img src="./zen-graphics/Zen eid plan.webp" alt="Zen collage 1">
+C:\Users\NCS\Downloads\PORTFOLIO\zen.html:356: <img src="./zen-graphics/Zen layout.webp" alt="Zen collage 2">
